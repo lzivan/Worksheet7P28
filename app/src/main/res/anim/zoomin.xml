@@ -1,0 +1,100 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true" >
+
+    <scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="2000"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="2"
+        android:toYScale="2"
+        android:fillAfter = "true">
+
+    </scale>
+
+    <rotate android:fromDegrees="0"
+        android:toDegrees="-360"
+        android:pivotX="0%"
+        android:pivotY="100%"
+        android:duration="1000"
+        android:interpolator="@android:anim/cycle_interpolator"
+        android:startOffset = "1000"
+        android:fillAfter = "true"/>
+
+    <rotate android:fromDegrees="0"
+        android:toDegrees="-360"
+        android:pivotX="0%"
+        android:pivotY="100%"
+        android:duration="1000"
+        android:interpolator="@android:anim/cycle_interpolator"
+        android:startOffset = "2000"
+        android:fillAfter = "true"/>
+
+    <rotate android:fromDegrees="0"
+        android:toDegrees="-360"
+        android:pivotX="0%"
+        android:pivotY="100%"
+        android:duration="1000"
+        android:interpolator="@android:anim/cycle_interpolator"
+        android:startOffset = "3000"
+        android:fillAfter = "true"/>
+
+    <translate
+    android:duration="500"
+    android:fillAfter="true"
+    android:fromYDelta="0%p"
+    android:toYDelta="50%p"
+    android:startOffset = "5000"/>
+
+    <translate
+        android:duration="500"
+        android:fillAfter="true"
+        android:fromYDelta="0%p"
+        android:toYDelta="-50%p"
+        android:startOffset = "5500"/>
+
+    <translate
+        android:duration="500"
+        android:fillAfter="true"
+        android:fromXDelta="0%p"
+        android:toXDelta="50%p"
+        android:startOffset = "6000"/>
+
+    <translate
+        android:duration="500"
+        android:fillAfter="true"
+        android:fromXDelta="0%p"
+        android:toXDelta="-50%p"
+        android:startOffset = "6500"/>
+
+    <translate
+        android:duration="500"
+        android:fillAfter="true"
+        android:fromYDelta="0%p"
+        android:toYDelta="-50%p"
+        android:startOffset = "7000"/>
+
+    <translate
+        android:duration="500"
+        android:fillAfter="true"
+        android:fromYDelta="0%p"
+        android:toYDelta="50%p"
+        android:startOffset = "7500"/>
+
+    <scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.5"
+        android:toYScale="0.5"
+        android:fillAfter = "true"
+        android:startOffset = "7000"/>
+
+
+
+</set>

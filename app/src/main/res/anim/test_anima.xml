@@ -1,0 +1,15 @@
+<set style="margin:0px;font-style:inherit;vertical-align:baseline">AnimationSet <span style="margin:0px;font-style:inherit;vertical-align:baseline">as</span> = new AnimationSet(true)
+    TranslateAnimation animation = new TranslateAnimation(
+    Animation.<span style="margin:0px;font-style:inherit;vertical-align:baseline">ABSOLUTE</span>, <span style="margin:0px;font-style:inherit;vertical-align:baseline">0.0</span>f, Animation.<span style="margin:0px;font-style:inherit;vertical-align:baseline">ABSOLUTE</span>, <span style="margin:0px;font-style:inherit;vertical-align:baseline">0.0</span>f,
+    Animation.<span style="margin:0px;font-style:inherit;vertical-align:baseline">ABSOLUTE</span>, <span style="margin:0px;font-style:inherit;vertical-align:baseline">0.0</span>f, Animation.<span style="margin:0px;font-style:inherit;vertical-align:baseline">ABSOLUTE</span>, -<span style="margin:0px;font-style:inherit;vertical-align:baseline">150.0</span>f);
+    animation.setDuration(<span style="margin:0px;font-style:inherit;vertical-align:baseline">200</span>);
+    <span style="margin:0px;font-style:inherit;vertical-align:baseline">as</span>.addAnimation(animation);
+
+    TranslateAnimation animation1 = new TranslateAnimation(
+    Animation.<span style="margin:0px;font-style:inherit;vertical-align:baseline">ABSOLUTE</span>, <span style="margin:0px;font-style:inherit;vertical-align:baseline">0.0</span>f, Animation.<span style="margin:0px;font-style:inherit;vertical-align:baseline">ABSOLUTE</span>, <span style="margin:0px;font-style:inherit;vertical-align:baseline">0.0</span>f,
+    Animation.<span style="margin:0px;font-style:inherit;vertical-align:baseline">ABSOLUTE</span>, <span style="margin:0px;font-style:inherit;vertical-align:baseline">150.0</span>f, Animation.<span style="margin:0px;font-style:inherit;vertical-align:baseline">ABSOLUTE</span>, <span style="margin:0px;font-style:inherit;vertical-align:baseline">0.0</span>f);
+    animation1.setDuration(<span style="margin:0px;font-style:inherit;vertical-align:baseline">200</span>);
+    animation1.setStartOffset(<span style="margin:0px;font-style:inherit;vertical-align:baseline">200</span>);
+    <span style="margin:0px;font-style:inherit;vertical-align:baseline">as</span>.addAnimation(animation1);
+
+    wave.startAnimation(<span style="margin:0px;font-style:inherit;vertical-align:baseline">as</span>);</set>
